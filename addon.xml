@@ -1,0 +1,11 @@
+<addon id="script.service.hello-world" name="hello world" version="1.0.0" provider-name="me">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Appends a timestamp to a file every 5 seconds</summary>
+        <description lang="en">This addon automatically appends a timestamp in ISO-8601 format to a file.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
